@@ -129,7 +129,7 @@ import minimal_hub_service_pb2_grpc
 
 def main():
     # Create a secure channel
-    channel = grpc.insecure_channel('localhost:5293')  # Use 5001 with SSL
+    channel = grpc.insecure_channel('localhost:5293')
     
     # Create a stub (client)
     stub = minimal_hub_service_pb2_grpc.MinimalHubServiceStub(channel)

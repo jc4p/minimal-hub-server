@@ -58,7 +58,7 @@ dotnet run --project src/HubSimulator.Service
 
 Important: You must specify the `--project` parameter pointing to the HubSimulator.Service project, not the solution file.
 
-The server will start on `https://localhost:5001` and `http://localhost:5000` by default.
+The server will start on `http://localhost:5293` by default.
 
 ### Initial Data Generation
 
